@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 
 from PIL import Image
 
-#st.set_page_config(page_title="Análise da Reunião", layout="wide")
+st.set_page_config(page_title="Análise da Reunião", layout="wide")
 
 row = st.columns(1)
 
