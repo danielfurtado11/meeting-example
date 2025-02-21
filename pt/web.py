@@ -494,10 +494,10 @@ with col2:
 
 
 if st.session_state.show_image_1623:
-    st.image(Image.open("11_49.png"), caption="Momento Baixo Engagement", width=650)
+    st.image(Image.open("pt/11_49.png"), caption="Momento Baixo Engagement", width=650)
 
 if st.session_state.show_image_1625:
-    st.image(Image.open("12_34.png"), caption="Momento Alto Engagement", width=650)
+    st.image(Image.open("pt/12_34.png"), caption="Momento Alto Engagement", width=650)
 
 st.write("")
 st.write("")
@@ -517,7 +517,8 @@ st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 
 
 df_resampled = pd.read_csv("pt/interventions.csv", index_col=0, parse_dates=True)
-df_resampled["Média Global"] = df_resampled[["André Neiva", "Daniel Furtado", "Rita", "Francisco Falcão"]].mean(axis=1)
+df_resampled["Média Global"] = df_resampled[["André Neiva", "Daniel Furtado", "Rita Batista", "Francisco Falcão"]].mean(axis=1)
+df_resampled = df_resampled.rename(columns={"Rita Batista": "Rita"})
 
 
 
