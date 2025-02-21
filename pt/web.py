@@ -9,7 +9,7 @@ from PIL import Image
 
 row = st.columns(1)
 
-row[0].image("pt/nexi.jpg", width=250)
+#row[0].image("pt/nexi.jpg", width=250)
 row[0].markdown("## 👋 Bem-vinda, Rita!")
 
 st.write("")
