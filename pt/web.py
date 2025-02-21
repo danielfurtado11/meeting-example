@@ -152,7 +152,7 @@ themes = [
     ]),
     (46, 52, "Integração da ferramenta em contextos académicos.", [
         "Potencial uso da tecnologia em universidades.",
-        "Discussão sobre a possibilidade de parceria com a Universidade do Minho.",
+        "Discussão sobre a possibilidade de parceria com a Universidade X.",
         "Benefícios da ferramenta para professores e alunos no ensino superior."
     ]),
     (52, 55, "Testes e implementação em formações reais.", [
@@ -162,7 +162,7 @@ themes = [
     ]),
     (55, 82, "Reflexão final e próximos passos.", [
         "Conclusões sobre a reunião e planos de ação.",
-        "Preparação do envio de um e-mail para a Universidade do Minho.",
+        "Preparação do envio de um e-mail para a Universidade X.",
         "Discussão sobre estratégias de comunicação e apresentação da ferramenta."
     ])
 ]
@@ -211,7 +211,7 @@ Francisco explicou que qualquer gravação exigiria uma autorização explícita
 Surgiram diferentes abordagens para contornar possíveis preocupações, como a anonimização de determinados dados ou a configuração de um sistema que processasse as informações sem armazená-las de forma permanente. 
 André e Daniel refletiram sobre a viabilidade dessas soluções, destacando que a tecnologia poderia ser ajustada para atender a requisitos legais sem comprometer a funcionalidade da ferramenta.
 
-Em seguida, discutiu-se a possibilidade de expandir o uso da ferramenta para o meio académico, particularmente na Universidade do Minho. 
+Em seguida, discutiu-se a possibilidade de expandir o uso da ferramenta para o meio académico, particularmente na Universidade X. 
 Rita comentou que a instituição tem um histórico de apoiar projetos inovadores e que poderia ser uma parceira estratégica para a implementação inicial da tecnologia. 
 André mencionou que já teve uma conversa preliminar com uma psicóloga da universidade que mostrou interesse no potencial da ferramenta para melhorar a experiência de aprendizagem. 
 A ideia de marcar uma reunião formal com representantes da universidade foi bem recebida, e Francisco sugeriu preparar um material de apresentação detalhado para destacar os benefícios da plataforma.
@@ -222,7 +222,7 @@ Com a ferramenta desenvolvida, seria possível gerar relatórios detalhados sobr
 Francisco reforçou que a adoção de um sistema de acompanhamento contínuo poderia beneficiar tanto formadores quanto empresas, proporcionando um panorama mais claro sobre o retorno dos investimentos em formação.
 
 Nos momentos finais da reunião, houve uma revisão das próximas ações a serem tomadas. 
-Ficou decidido que um e-mail seria enviado à Universidade do Minho para formalizar o contacto e agendar uma reunião. 
+Ficou decidido que um e-mail seria enviado à Universidade X para formalizar o contacto e agendar uma reunião. 
 Além disso, Francisco comprometeu-se a consultar especialistas jurídicos para garantir que todas as questões legais fossem abordadas corretamente antes da implementação em larga escala. 
 André mencionou que um primeiro teste da plataforma poderia ser realizado num ambiente controlado, permitindo ajustes antes de uma aplicação mais abrangente.
 
@@ -252,7 +252,7 @@ st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 
 st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔸 Medição de Engagement e Participação: <span style='font-weight:normal;'>Discutiu-se a evolução do sistema para captar expressões faciais e padrões de interação, permitindo um melhor acompanhamento do envolvimento dos participantes.</span>", unsafe_allow_html=True)
 
-st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔸 Aplicação da Tecnologia no Ensino e Formação: <span style='font-weight:normal;'>Foram exploradas possibilidades de utilização da ferramenta na educação superior e em formações empresariais, com destaque para a potencial colaboração com a Universidade do Minho.</span>", unsafe_allow_html=True)
+st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔸 Aplicação da Tecnologia no Ensino e Formação: <span style='font-weight:normal;'>Foram exploradas possibilidades de utilização da ferramenta na educação superior e em formações empresariais, com destaque para a potencial colaboração com a Universidade X.</span>", unsafe_allow_html=True)
 
 st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔸 Questões Legais e Proteção de Dados: <span style='font-weight:normal;'>Debateu-se a necessidade de conformidade com regulamentos de proteção de dados e possíveis soluções para anonimizar informações sensíveis.</span>", unsafe_allow_html=True)
 
@@ -264,7 +264,7 @@ st.write("\n\n\n")
 
 st.header("👣 Próximos Passos", divider="gray")
 
-st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔹 Agendar uma reunião com representantes da Universidade do Minho para discutir a viabilidade de uma parceria e a aplicação da ferramenta no meio académico.")
+st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔹 Agendar uma reunião com representantes da Universidade X para discutir a viabilidade de uma parceria e a aplicação da ferramenta no meio académico.")
 st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔹 Consultar especialistas jurídicos para definir a melhor abordagem em relação à proteção de dados e permissões de uso da tecnologia.")
 st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔹 Melhorar a interface do sistema, tornando os relatórios mais intuitivos e amigáveis para os utilizadores.")
 st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔹 Refinar o \"engagement score\" e criar indicadores mais detalhados para avaliar a participação dos formandos.")
@@ -278,7 +278,7 @@ st.header("✍🏻 Tarefas Atribuídas", divider="gray")
 # Dicionário de tarefas atribuídas a cada pessoa
 tasks = {
     "André Neiva": [
-        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️ Enviar um e-mail para a Universidade do Minho para formalizar o interesse na parceria e agendar uma reunião.",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️ Enviar um e-mail para a Universidade X para formalizar o interesse na parceria e agendar uma reunião.",
         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️ Trabalhar na apresentação visual dos relatórios para torná-los mais intuitivos e informativos.",
         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️ Coordenar com a equipa a organização do primeiro teste controlado da plataforma."
     ],
@@ -292,7 +292,7 @@ tasks = {
         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️ Trabalhar na estruturação dos relatórios para torná-los mais acessíveis aos utilizadores finais."
     ],
     "Rita": [
-        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️ Explorar contactos na Universidade do Minho para facilitar a comunicação e viabilizar a apresentação da ferramenta.",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️ Explorar contactos na Universidade X para facilitar a comunicação e viabilizar a apresentação da ferramenta.",
         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️ Avaliar possíveis resistências de formadores e empresas em relação ao uso da tecnologia e sugerir estratégias para aumentar a aceitação."
     ]
 }
@@ -355,7 +355,7 @@ st.write("### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rita")
 st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Aspetos Positivos:")
 st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Demonstrou interesse genuíno e trouxe perspetivas valiosas sobre a aplicação do sistema no setor da formação.")
 st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Explicou de forma clara as dificuldades e desafios da formação online e presencial.")
-st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Sugeriu contactos importantes, nomeadamente com a Universidade do Minho.")
+st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Sugeriu contactos importantes, nomeadamente com a Universidade X.")
 
 st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⚠️ Aspetos a Melhorar:")
 st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Algumas ideias foram repetidas ao longo da reunião. Poderia ser mais concisa.")
