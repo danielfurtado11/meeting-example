@@ -5,11 +5,11 @@ import plotly.graph_objects as go
 
 from PIL import Image
 
-st.set_page_config(page_title="Meeting Analysis", layout="wide")
+#st.set_page_config(page_title="Meeting Analysis", layout="wide")
 
 row = st.columns(1)
 
-row[0].image("eng/nexi.jpg", width=250)
+#row[0].image("eng/nexi.jpg", width=250)
 row[0].markdown("## 👋 Welcome, Rita!")
 
 st.write("")
