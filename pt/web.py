@@ -9,7 +9,7 @@ st.set_page_config(page_title="Análise da Reunião", layout="wide")
 
 row = st.columns(1)
 
-row[0].image("nexi.jpg", width=250)
+row[0].image("pt/nexi.jpg", width=250)
 row[0].markdown("## 👋 Bem-vinda, Rita!")
 
 st.write("")
@@ -66,9 +66,6 @@ dados = {
         "A reunião poderia ter sido um pouco mais objetiva em certos momentos."
     ]
 }
-
-import pandas as pd
-
 df = pd.DataFrame(dados)
 
 st.dataframe(df)  # Usa uma tabela interativa
