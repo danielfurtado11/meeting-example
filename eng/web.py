@@ -9,7 +9,7 @@ st.set_page_config(page_title="Meeting Analysis", layout="wide")
 
 row = st.columns(1)
 
-row[0].image("nexi.jpg", width=250)
+row[0].image("eng/nexi.jpg", width=250)
 row[0].markdown("## 👋 Welcome, Rita!")
 
 st.write("")
@@ -406,7 +406,7 @@ topics = {
 
 st.header("📈 Engagement", divider="gray")
 
-data = pd.read_csv("data_final.csv")
+data = pd.read_csv("eng/data_final.csv")
 data["datetime"] = pd.to_datetime(data["datetime"])
 
 time_adjust = "1min" 
@@ -493,10 +493,10 @@ with col2:
 
 
 if st.session_state.show_image_1623:
-    st.image(Image.open("11_49.png"), caption="Low Engagement Moment", width=650)
+    st.image(Image.open("eng/11_49.png"), caption="Low Engagement Moment", width=650)
 
 if st.session_state.show_image_1625:
-    st.image(Image.open("12_34.png"), caption="High Engagement Moment", width=650)
+    st.image(Image.open("eng/12_34.png"), caption="High Engagement Moment", width=650)
 
 st.write("")
 st.write("")
@@ -515,8 +515,9 @@ st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 
 
 
-df_resampled = pd.read_csv("interventions.csv", index_col=0, parse_dates=True)
-df_resampled["Global Mean"] = df_resampled[["André Neiva", "Daniel Furtado", "Rita", "Francisco Falcão"]].mean(axis=1)
+df_resampled = pd.read_csv("eng/interventions.csv", index_col=0, parse_dates=True)
+df_resampled["Global Mean"] = df_resampled[["André Neiva", "Daniel Furtado", "Rita Batista", "Francisco Falcão"]].mean(axis=1)
+df_resampled = df_resampled.rename(columns={"Rita Batista": "Rita"})
 
 
 
