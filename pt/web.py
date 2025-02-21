@@ -407,7 +407,7 @@ topics = {
 
 st.header("📈 Engagement", divider="gray")
 
-data = pd.read_csv("data_final.csv")
+data = pd.read_csv("pt/data_final.csv")
 data["datetime"] = pd.to_datetime(data["datetime"])
 
 time_adjust = "1min" 
@@ -516,7 +516,7 @@ st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 
 
 
-df_resampled = pd.read_csv("interventions.csv", index_col=0, parse_dates=True)
+df_resampled = pd.read_csv("pt/interventions.csv", index_col=0, parse_dates=True)
 df_resampled["Média Global"] = df_resampled[["André Neiva", "Daniel Furtado", "Rita", "Francisco Falcão"]].mean(axis=1)
 
 
