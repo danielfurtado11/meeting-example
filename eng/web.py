@@ -154,7 +154,7 @@ themes = [
     ]),
     (46, 52, "Integration of the tool in academic contexts.", [
         "Potential use of the technology in universities.",
-        "Discussion on a possible partnership with the University of Minho.",
+        "Discussion on a possible partnership with the University X.",
         "Benefits of the tool for professors and students in higher education."
     ]),
     (52, 55, "Testing and implementation in real training sessions.", [
@@ -164,7 +164,7 @@ themes = [
     ]),
     (55, 82, "Final reflection and next steps.", [
         "Conclusions on the meeting and action plans.",
-        "Preparation for sending an email to the University of Minho.",
+        "Preparation for sending an email to the University X.",
         "Discussion on communication strategies and tool presentation."
     ])
 ]
@@ -214,7 +214,7 @@ Francisco explained that any recording would require explicit authorization and 
 Various approaches were considered to address potential concerns, such as anonymizing certain data or configuring a system that processes information without storing it permanently. 
 André and Daniel reflected on the feasibility of these solutions, emphasizing that the technology could be adjusted to meet legal requirements without compromising the tool's functionality.
 
-Next, the discussion turned to the potential expansion of the tool's use in academic settings, particularly at the University of Minho. 
+Next, the discussion turned to the potential expansion of the tool's use in academic settings, particularly at the University X. 
 Rita mentioned that the institution has a history of supporting innovative projects and could be a strategic partner for the initial implementation of the technology. 
 André noted that he had already had a preliminary conversation with a university psychologist who expressed interest in the tool's potential to enhance the learning experience. 
 The idea of scheduling a formal meeting with university representatives was well received, and Francisco suggested preparing a detailed presentation to highlight the platform's benefits.
@@ -224,7 +224,7 @@ Rita shared a recent experience where evaluating training effectiveness was chal
 Francisco reinforced that adopting a continuous monitoring system could benefit both trainers and companies, providing a clearer overview of the return on investment in training programs.
 
 In the final moments of the meeting, the next steps were reviewed. 
-It was decided that an email would be sent to the University of Minho to formalize contact and schedule a meeting. 
+It was decided that an email would be sent to the University X to formalize contact and schedule a meeting. 
 Additionally, Francisco committed to consulting legal experts to ensure all legal issues were properly addressed before large-scale implementation. 
 André mentioned that an initial test of the platform could be conducted in a controlled environment, allowing for adjustments before a broader rollout.
 
@@ -251,7 +251,7 @@ st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 
 st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔸 Engagement and Participation Measurement: <span style='font-weight:normal;'>The evolution of the system to capture facial expressions and interaction patterns was discussed, enabling better monitoring of participant involvement.</span>", unsafe_allow_html=True)
 
-st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔸 Application of Technology in Education and Training: <span style='font-weight:normal;'>The possibilities of using the tool in higher education and corporate training were explored, with an emphasis on potential collaboration with the University of Minho.</span>", unsafe_allow_html=True)
+st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔸 Application of Technology in Education and Training: <span style='font-weight:normal;'>The possibilities of using the tool in higher education and corporate training were explored, with an emphasis on potential collaboration with the University X.</span>", unsafe_allow_html=True)
 
 st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔸 Legal Issues and Data Protection: <span style='font-weight:normal;'>The need for compliance with data protection regulations and possible solutions to anonymize sensitive information was debated.</span>", unsafe_allow_html=True)
 
@@ -263,7 +263,7 @@ st.write("\n\n\n")
 
 st.header("👣 Next Steps", divider="gray")
 
-st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔹 Schedule a meeting with representatives from the University of Minho to discuss the feasibility of a partnership and the application of the tool in academia.")
+st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔹 Schedule a meeting with representatives from the University X to discuss the feasibility of a partnership and the application of the tool in academia.")
 st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔹 Consult legal experts to define the best approach regarding data protection and technology usage permissions.")
 st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔹 Improve the system interface, making reports more intuitive and user-friendly.")
 st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔹 Refine the \"engagement score\" and create more detailed indicators to assess trainee participation.")
@@ -276,7 +276,7 @@ st.header("✍🏻 Assigned Tasks", divider="gray")
 # Dictionary of assigned tasks per person
 tasks = {
     "André Neiva": [
-        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️ Send an email to the University of Minho to formalize interest in the partnership and schedule a meeting.",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️ Send an email to the University X to formalize interest in the partnership and schedule a meeting.",
         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️ Work on the visual presentation of reports to make them more intuitive and informative.",
         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️ Coordinate with the team to organize the first controlled test of the platform."
     ],
@@ -290,7 +290,7 @@ tasks = {
         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️ Work on structuring reports to make them more accessible to end users."
     ],
     "Rita": [
-        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️ Explore contacts at the University of Minho to facilitate communication and enable the tool presentation.",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️ Explore contacts at the University X to facilitate communication and enable the tool presentation.",
         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️ Evaluate potential resistance from trainers and companies regarding technology adoption and suggest strategies to increase acceptance."
     ]
 }
@@ -355,7 +355,7 @@ st.write("### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rita")
 st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Positive Aspects:")
 st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Showed genuine interest and provided valuable insights on the system's application in the training sector.")
 st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Clearly explained the challenges of online and in-person training.")
-st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Suggested valuable contacts, including with the University of Minho.")
+st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Suggested valuable contacts, including with the University X.")
 
 st.write("###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⚠️ Areas for Improvement:")
 st.write(" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Some ideas were repeated throughout the meeting. Could be more concise.")
