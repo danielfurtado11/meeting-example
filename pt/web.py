@@ -9,8 +9,8 @@ st.set_page_config(page_title="Análise da Reunião", layout="wide")
 
 row = st.columns(1)
 
-row[0].image("pt/nexi.jpg", width=250)
-row[0].markdown("## 👋 Bem-vinda, Rita!")
+row[0].image("pt/logo.png", width=250)
+row[0].markdown("## 👋 Bem-vindo, Daniel!")
 
 st.write("")
 st.write("")
